@@ -1,0 +1,6 @@
+[
+    { "id": 1, "avatar": "https://pub-5f12f7508ff04ae5925853dee0438460.r2.dev/data/dota/panorama/images/econ/items/drow/dread_retribution/drow_arcana_weapon_png.png", "name": "Alice", "isOnline": true },
+    { "id": 2, "avatar": "https://dota2.ru/img/heroes/shadow_fiend/portrait.jpg", "name": "Bob", "isOnline": false },
+    { "id": 3, "avatar": "https://i1.sndcdn.com/artworks-MHnE5WvqiTWC521Q-vu0PWA-t500x500.jpg", "name": "Charlie", "isOnline": true }
+  ]
+  

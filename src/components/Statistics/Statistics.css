@@ -1,0 +1,31 @@
+.statistics {
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .stat-list {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+  }
+  
+  .item {
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .percentage {
+    font-size: 16px;
+  }
+  

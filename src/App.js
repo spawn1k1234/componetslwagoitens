@@ -1,18 +1,14 @@
-import React from 'react';
-import Greeting from './components/Greeting';
-import Message from './components/Message';
-import Button from './components/Button';
+import Statistics from './components/Statistics/Statistics';
+import FriendList from './components/FriendList/FriendList';
+import data from './components/Statistics/data.json';
+import friends from './components/FriendList/friends.json';
+
 
 function App() {
-  const handleClick = () => {
-    console.log("Кнопку натиснули!");
-  };
-
   return (
-    <div>
-      <Greeting name="Semma" />
-      <Message text="Це довільне повідомлення для користувача." />
-      <Button onClick={handleClick} />
+    <div className="App">
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
     </div>
   );
 }
